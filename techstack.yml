@@ -1,7 +1,8 @@
 repo_name: yuriportfolio/deeerer
 report_id: 3dce1d88d219a967389dbdf034123109
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T20:00:03+00:00'
+timestamp: '2024-01-04T15:13:10+00:00'
 requested_by: ArnaudLigny
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yuriportfolio/deeerer
   detection_source: Repo Metadata
 - name: Travis CI
   description: A hosted continuous integration service for open source and private
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/yuriportfolio/deeerer/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Arnaud Ligny
   last_updated_on: 2019-11-15 16:42:34.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/yuriportfolio/deeerer/blob/master/netlify.toml
   detection_source: netlify.toml
   last_updated_by: Arnaud Ligny
   last_updated_on: 2019-07-09 09:37:25.000000000 Z
@@ -49,4 +53,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/yuriportfolio/deeerer
   detection_source: Repo Metadata
